@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{FA2BEF77-BCFD-4412-96BD-DB3070F919D4}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>ArryLoad</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ArryLoad.Sub Main</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>ArryLoad</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NAudio" />
+    <Reference Include="System" />
+    <Reference Include="alglibnet2">
+      <HintPath>..\ArryLoad\alglib\net-core\alglibnet2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArryLoad.SignalTypes\AnalyseAudio.vb" />
+    <Compile Include="ArryLoad.SignalTypes\SFR.vb" />
+    <Compile Include="ArryLoad.SignalTypes\Signal.vb" />
+    <Compile Include="ArryLoad.SignalTypes\SinusoidSignal.vb" />
+    <Compile Include="ArryLoad\Declarations.vb" />
+    <Compile Include="ArryLoad\Program.vb" />
+    <Compile Include="CodeFile1.vb" />
+    <Compile Include="Properties\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

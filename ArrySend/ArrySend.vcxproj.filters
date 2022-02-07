@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArryLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\alglibinternal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\alglibmisc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\ap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\dataanalysis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\diffequations.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\fasttransforms.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\integration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\interpolation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\linalg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\optimization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\solvers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\specialfunctions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\statistics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArryLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\alglibinternal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\alglibmisc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\ap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\dataanalysis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\diffequations.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\fasttransforms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\integration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\interpolation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\linalg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\optimization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\solvers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\specialfunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\statistics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib\stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fftw3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\alglib\AGL LIB 2013_11_07.mht" />
+    <None Include="..\alglib\manual.cpp.html" />
+  </ItemGroup>
+</Project>

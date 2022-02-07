@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net45;net46</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.1.8-pre</Version>
+    <Authors>Jonathan Arweck</Authors>
+    <Company></Company>
+    <Description>DspSharp - Digital Audio Signal Processing in C#</Description>
+    <Copyright>© 2017 Jonathan Arweck</Copyright>
+    <PackageLicenseUrl>https://github.com/Jonarw/DspSharp/blob/dev/LICENSE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Jonarw/DspSharp/</PackageProjectUrl>
+    <PackageTags>audio signal processing dsp filter fir iir</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AssemblyVersion>0.1.8.0</AssemblyVersion>
+    <FileVersion>0.1.8.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.2" />
+    <PackageReference Include="System.ComponentModel.Primitives" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DspSharp.Interop">
+      <HintPath>DspSharp.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="PropertyTools">
+      <HintPath>PropertyTools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="DspSharp.Interop.dll">
+      <Pack>true</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>    
+    <Content Include="PropertyTools.dll">
+      <Pack>true</Pack>
+    </Content>
+  </ItemGroup>
+  
+</Project>
